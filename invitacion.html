@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Invitación | Mis 15 Milagros</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<div class="invitation-container">
+    <!-- Hero principal -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="invitation-title">Mis 15 años</div>
+            <div class="hero-name">Milagros</div>
+            <div class="hero-date">Viernes 11 de septiembre de 2026</div>
+          
+        </div>
+    </section>
+
+   
+
+    <!-- MENSAJE PERSONAL -->
+    <section class="message">
+        <div class="container">
+            <div class="subheading">Con mucha ilusión</div>
+            <div class="message-text">
+              <!--  <i class="fas fa-leaf tiana-flower"></i> <i class="fas fa-frog tiana-flower"></i> <i class="fas fa-crown tiana-flower"></i><br>--> 
+                Quiero invitarte a compartir este día tan especial y una noche llena de magia.<br>
+Eres una parte importante de mi historia y me encantaría que me acompañaras en este momento tan especial.
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- CUENTA REGRESIVA -->
+    <section class="countdown-section">
+        <div id="countdown" class="container">
+            <h2 class="titulo">Faltan para el gran día</h2>
+            <div class="countdown-wrapper" >
+                <div class="time-box"><div class="time-number" id="days">00</div><div class="time-label">Días</div></div>
+                <div class="time-box"><div class="time-number" id="hours">00</div><div class="time-label">Horas</div></div>
+                <div class="time-box"><div class="time-number" id="minutes">00</div><div class="time-label">Minutos</div></div>
+                <div class="time-box"><div class="time-number" id="seconds">00</div><div class="time-label">Segundos</div></div>
+            </div>
+            <p class="subheading" style="margin-top: 0.5rem;">✨ Soñar es el primer paso ✨</p>
+       </div> 
+ <div id="partyMessage" style="display:none;">
+    <h2>¡El gran día ya llegó!</h2>
+
+</div>
+    </section>
+
+   
+<section id="details" class="details">
+        <div class="container">
+            <h2 class="titulo">Detalles de mi fiesta</h2>
+
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div >
+                        <h3>Ubicación</h3>
+                        <p><b>Salón El Dorado</b> <br>Av. José Belloni 3283</p>
+                        <a class="vinculo" target="_blank" href="https://maps.app.goo.gl/3y2EZMe3FhjQu7QS9"><button
+                             class="btn-rsvp">Ver mapa</button></a>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div >
+                        <h3>Horario</h3>
+                        <p>22:00 a 05:00 hs</p>
+                    </div>
+                </div>
+                  <div class="detail-card">
+                    <div class="icon">
+                 <i class="fa-solid fa-heart"></i>
+                    </div>
+                  <div>
+    <h3>Vestimenta</h3>
+    <p>Formal<br></p>
+    <p><br>Te pedimos evitar los colores rosa y gris, ya que estarán reservados para la quinceañera y su familia.</p>
+</div>
+                </div>
+            </div>
+<!-- Tarjeta Regalo -->
+<div class="flex justify-center">
+  <div class="detail-card">
+
+    <div class="icono-regalo">
+      <i class="fa-solid fa-gift"></i>
+    </div>
+
+    <h3>Regalo</h3>
+
+<p>
+No es necesario regalar dinero. <br> Cualquier detalle elegido con cariño será más que suficiente. <br> Si preferís hacer una colaboración, podés hacerlo a través de la siguiente cuenta.
+</p>
+
+ <button
+      onclick="document.getElementById('cvu-info').classList.toggle('hidden')"
+      class="btn-rsvp">
+      Cuenta Bancaria
+    </button>
+
+    <!-- CVU Info -->
+    <div id="cvu-info" class="hidden cvu-info">
+      <p>
+        <strong>Cuenta PREX:</strong>
+        <span class="select-all break-words">23326234</span>
+      </p>
+
+      <p>
+        <strong>Titular:</strong>
+        <span class="select-all">Micaela Peralta</span>
+      </p>
+
+      <p >
+        ¡Gracias por tu cariño! 💖
+      </p>
+    </div>
+
+  </div>
+</div>
+   
+    <section>
+        <div class="container">
+            <h2 class="titulo">Confirmar asistencia
+                
+            </h2>
+         <p>
+    <strong><br>📅 Fecha límite para confirmar: 15 de agosto<br></strong>
+    <br>Por favor, confirma tu asistencia por WhatsApp antes de esa fecha para ayudarnos con los preparativos.
+</p>
+
+<br>
+
+<a href="https://wa.me/59894091994?text=Hola%2C%20confirmo%20mi%20asistencia%20al%20cumplea%C3%B1os%20de%20Milagros.%20%C2%A1Nos%20vemos%21"
+   target="_blank"
+   class="btn-rsvp">
+    CONFIRMAR ASISTENCIA <i class="fab fa-whatsapp"></i>
+</a>
+
+<div style="margin-top: 2rem;">
+                
+          
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h2>Mili</h2>
+                <p><br>Mis Quince Años</p>
+                <div class="heart-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                
+            </div>
+
+         
+
+            <div class="footer-info">
+                <p>11 de septiembre de 2026</p>
+               
+                <a href="https://www.instagram.com/digitalcardscamila" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+                <p class="copyright">© <span id="currentYear"></span> - Todos los derechos reservados</p>
+            </div>
+        </div>
+        
+    
+
+    </footer>
+  
+</div>
+
+
+
+<!-- CONTROL DE MÚSICA -->
+<div class="music-control" id="musicToggle">
+    <i class="fas fa-music"></i>
+</div>
+<audio id="bgMusic" loop preload="auto">
+    <source allow="autoplay" src="musica.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+</audio>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</body>
+</html>
